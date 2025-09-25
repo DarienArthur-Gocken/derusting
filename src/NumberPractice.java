@@ -24,6 +24,10 @@ public class NumberPractice {
     }
 
     // Divide the number by another number using integer division
+    int number1 = 20;
+    int number2 = 10;
+    int result = number1 / number2;
+    System.out.println(result);
 
     /*
      * Reminder!
