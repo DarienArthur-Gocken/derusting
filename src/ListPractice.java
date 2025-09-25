@@ -6,8 +6,12 @@ public class ListPractice {
     ArrayList<String> strings = new ArrayList<String>();
 
     // Add 3 elements to the list (OK to do one-by-one)
+    strings.add("Hey");
+    strings.add("hey2");
+    strings.add("whats up");
 
     // Print the element at index 1
+    System.out.println(strings.get(1));
 
     // Replace the element at index 1 with a new value
     // (Do not insert a new value. The length of the list should not change)
