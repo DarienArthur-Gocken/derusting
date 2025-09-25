@@ -24,6 +24,11 @@ public class ListPractice {
 
 
     // Check whether the list contains a certain string
+    if(strings.indexOf("new value") >= 0) {
+      System.out.println("Found.");
+    } else {
+      System.out.println("Not found.");
+    }
 
     // Iterate over the list using a traditional for-loop.
     // Print each index and value on a separate line
