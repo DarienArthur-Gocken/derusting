@@ -9,6 +9,8 @@ public class NumberPractice {
     //System.out.println(positiveInt);
 
     // Use the modulo % operator to find the remainder when the int is divided by 3
+    int remainder = positiveInt % 3;
+    //System.out.println(remainder);
 
     // Use the modulo % operator to determine whether the number is even
     // (A number is even if it has a remainder of zero when divided by 2)
