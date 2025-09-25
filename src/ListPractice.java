@@ -1,8 +1,9 @@
+import java.util.ArrayList;
 public class ListPractice {
-
 
   public static void main(String[] args) {
     // Create an empty ArrayList of Strings and assign it to a variable of type List
+    ArrayList<String> strings = new ArrayList<String>();
 
     // Add 3 elements to the list (OK to do one-by-one)
 
