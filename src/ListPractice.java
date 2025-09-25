@@ -32,6 +32,9 @@ public class ListPractice {
 
     // Iterate over the list using a traditional for-loop.
     // Print each index and value on a separate line
+    for(int i = 0; i < strings.size(); i++) {
+      System.out.println(i + strings.get(i));
+    }
 
     // Sort the list using the Collections library
 
