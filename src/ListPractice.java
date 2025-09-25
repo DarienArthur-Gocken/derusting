@@ -15,8 +15,13 @@ public class ListPractice {
 
     // Replace the element at index 1 with a new value
     // (Do not insert a new value. The length of the list should not change)
+    strings.set(1, "new value");
+    System.out.println(strings.get(1));
 
     // Insert a new element at index 0 (the length of the list will change)
+    strings.add(0, "even newer value");
+    System.out.println(strings.get(0));
+
 
     // Check whether the list contains a certain string
 
