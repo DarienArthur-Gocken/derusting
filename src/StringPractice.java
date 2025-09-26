@@ -22,18 +22,27 @@ public class StringPractice {
 
     // Iterate over the characters of the string, printing each one on a separate line
     for (int i = 0; i < fiveCharacterString.length(); i++) {
-      System.out.print(fiveCharacterString.charAt(i) + " ");
+      System.out.println(fiveCharacterString.charAt(i) + " ");
     }
 
     // Create an ArrayList of Strings and assign it to a variable
     ArrayList<String> arrayOfStrings = new ArrayList<String>();
 
     // Add multiple strings to the List (OK to do one-by-one)
+    arrayOfStrings.add("string1");
+    arrayOfStrings.add("string2");
+    arrayOfStrings.add("String3");
 
     // Join all of the strings in the list together into a single string separated by commas
     // Use a built-in method to achieve this instead of using a loop
+    System.out.println(arrayOfStrings.toString());
 
     // Check whether two strings are equal
+    if(stringOne.equals(stringTwo)) {
+      System.out.println("equal");
+    } else {
+      System.out.println("Not equal.");
+    }
 
     /*
      * Reminder!
