@@ -1,8 +1,10 @@
 public class StringPractice {
   public static void main(String[] args) {
     // Create a string with at least 5 characters and assign it to a variable
+    String fiveCharacterString = "Tests";
 
     // Find the length of the string
+    System.out.println(fiveCharacterString.length());
 
     // Concatenate (add) two strings together and reassign the result
 
