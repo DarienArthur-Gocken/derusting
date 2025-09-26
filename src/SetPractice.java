@@ -21,6 +21,9 @@ public class SetPractice {
     System.out.println(hashStrings.size());
 
     // Iterate over the elements of the Set, printing each one on a separate line
+    for(String str : hashStrings) {
+      System.out.println(str);
+    }
 
     /*
      * Warning!
