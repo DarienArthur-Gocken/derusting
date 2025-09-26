@@ -13,14 +13,20 @@ public class MapPractice {
     strIntHashMap.put("test3", 3);
 
     // Get the value associated with a given key in the Map
+    System.out.println(strIntHashMap.get("test2"));
 
     // Find the size (number of key/value pairs) of the Map
+    System.out.println(strIntHashMap.size());
 
     // Replace the value associated with a given key (the size of the Map shoukld not change)
+    strIntHashMap.replace("test2", 4);
+    System.out.println(strIntHashMap.size());
 
     // Check whether the Map contains a given key
+    System.out.println(strIntHashMap.containsKey("test1"));
 
     // Check whether the Map contains a given value
+    System.out.println(strIntHashMap.containsValue(2));
 
     // Iterate over the keys of the Map, printing each key
 
