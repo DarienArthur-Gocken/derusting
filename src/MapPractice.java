@@ -29,10 +29,19 @@ public class MapPractice {
     System.out.println(strIntHashMap.containsValue(2));
 
     // Iterate over the keys of the Map, printing each key
+    for(String key : strIntHashMap.keySet()) {
+      System.out.println(key);
+    }
 
     // Iterate over the values of the map, printing each value
+    for(Integer value : strIntHashMap.values()) {
+      System.out.println(value);
+    }
 
     // Iterate over the entries in the map, printing each key and value
+    for(HashMap.Entry<String, Integer> entry : strIntHashMap.entrySet()) {
+      System.out.println(entry.getKey() + " - " + entry.getValue());
+    }
 
     /*
      * Usage tip!
