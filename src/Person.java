@@ -6,13 +6,22 @@
 public class Person {
   // Declare a public String instance variable for the name of the person
   // Declare a private int instance variable for the age of the person
+  public String name;
+  private int age;
 
 
   // Create a constructor that takes the name and age of the person
   // and assigns it to the instance variables
+  public Person(String _name, int _age) {
+      age = _age;
+      name = _name;
+  }
 
 
   // Create a toString method that gives the name and age of the person
+  public String toString() {
+    return name + " - " + age;
+  }
 
 
   // Implement the below public instance method "birthYear"
@@ -28,6 +37,10 @@ public class Person {
    * @return The year the person was born
    */
   // (create the instance method here)
+  public int birthYear(int currentYear) {
+    int bornOn = currentYear - age;
+    return bornOn;
+  }
 
 
   public static void main(String[] args) {
