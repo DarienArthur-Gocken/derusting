@@ -17,8 +17,14 @@ public class ArrayPractice {
     System.out.println(strings.length);
 
     // Iterate over the array using a traditional for loop and print out each item
+    for(int i = 0; i < strings.length; i++) {
+      System.out.println(strings[i]);
+    }
 
     // Iterate over the array using a for-each loop and print out each item
+    for(String str : strings) {
+      System.out.println(str);
+    }
 
     /*
      * Reminder!
