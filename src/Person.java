@@ -45,21 +45,28 @@ public class Person {
 
   public static void main(String[] args) {
     // Create an instance of Person
+    Person person = new Person("Person1", 20);
 
     // Create another instance of Person with a different name and age and
     // assign it to a different variable
+    Person person2 = new Person("Person2", 25);
 
     // Print the first person
+    System.out.println(person);
 
     // Print the second person
+    System.out.println(person2);
 
     // Get the name of the first person and store it in a local variable
+    String firstPersonName = person.name;
 
     // Using the birthYear method, get the birth year of the first person
     // and store it in a local variable. Input the actual current year (e.g. 2025)
     // as the argument.
+    int bornOn = person.birthYear(2025);
 
     // In a separate statement, print the local variable holding the birth year.
+    System.out.println(bornOn);
 
     /**
      * Terminology!
