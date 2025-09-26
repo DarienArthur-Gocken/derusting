@@ -5,8 +5,13 @@ public class ArrayPractice {
 
     // Set the value of the array at each index to be a different String
     // It's OK to do this one-by-one
+    strings[0] = "Hey";
+    strings[1] = "Test";
+    strings[2] = "Third";
+    strings[3] = "Fourth";
 
     // Get the value of the array at index 2
+    System.out.println(strings[2]);
 
     // Get the length of the array
 
