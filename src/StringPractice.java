@@ -7,8 +7,13 @@ public class StringPractice {
     System.out.println(fiveCharacterString.length());
 
     // Concatenate (add) two strings together and reassign the result
+    String stringOne = "String1";
+    String stringTwo = "String2";
+    stringOne = stringOne.concat(stringTwo);
+    System.out.println(stringOne);
 
     // Find the value of the character at index 3
+    System.out.println(fiveCharacterString.charAt(3));
 
     // Check whether the string contains a given substring (i.e. does the string have "abc" in it?)
 
