@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 public class ListPractice {
 
   public static void main(String[] args) {
@@ -37,9 +38,13 @@ public class ListPractice {
     }
 
     // Sort the list using the Collections library
+    Collections.sort(strings);
 
     // Iterate over the list using a for-each loop
     // Print each value on a second line
+    for(String str : strings) {
+      System.out.println(str);
+    }
 
     /*
      * Usage tip!
